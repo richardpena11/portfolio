@@ -1,0 +1,240 @@
+{
+  "projects": [
+    {
+      "id": "formatofms",
+      "name": "Formato FMS",
+      "mainImg": "formatofms1.png",
+
+      "carousel": ["formatofms1.png", "formatofms2.png", "formatofms3.png"],
+
+      "skill": ["HTML", "Sass", "JavaScript", "jQuery"],
+
+      "description": [
+        "Spanish website with information about a Freestyle league.",
+        "It had a tool made with jQuery that works for vote any match with the official voting system.",
+        "Using arrays for long numbers of variables."
+      ],
+
+      "source": "https://github.com/richardpena11/formatofms",
+
+      "preview": "https://www.formatofms.com/"
+    },
+
+    {
+      "id": "gamespot",
+      "name": "GameSpot",
+      "mainImg": "gamespot1.png",
+
+      "carousel": ["gamespot1.png", "gamespot2.png", "gamespot3.png"],
+
+      "skill": ["HTML", "CSS", "Vue", "Vuex", "Vue Routes", "Vue Resource", "Firebase"],
+
+      "description": [
+        "A personal blog about videogames reviews.",
+        "Using Firebase as a data base to store all the posts.",
+        "Made a custom CMS with Vue to post or delete any post."
+      ],
+
+      "source": "https://github.com/richardpena11/gamespot",
+
+      "preview": "https://richardpena11.github.io/gamespot/"
+    },
+
+    {
+      "id": "forkify",
+      "name": "Forkify",
+      "mainImg": "forkify3.png",
+
+      "carousel": ["forkify1.png", "forkify2.png", "forkify3.png"],
+
+      "skill": ["HTML", "CSS", "JavaScript", "ESNext", "Babel", "Webpack"],
+
+      "description": [
+        "Forkify is a project where we use te modern JavaScript (EMNext).",
+        "Using Webpack and babel for better work enviroment.",
+        "Using API request and local Storage."
+      ],
+
+      "source": "https://github.com/richardpena11/forkify-page",
+
+      "preview": "https://richardpena11.github.io/forkify-page/"
+    },
+
+    {
+      "id": "domnoo",
+      "name": "Domnoo",
+      "mainImg": "domnoo1.png",
+
+      "carousel": ["domnoo1.png", "domnoo2.png", "domnoo3.png"],
+
+      "skill": ["HTML", "CSS", "Vue", "Vue Resource", "Vue Material"],
+
+      "description": [
+        "Domnoo is a landing page of a Pizza Store.",
+        "Firebase is use as a data base for all the menu items and to store user's email from the newsletter."
+      ],
+
+      "source": "https://github.com/richardpena11/domnoo",
+
+      "preview": "https://richardpena11.github.io/domnoo/"
+    },
+
+    {
+      "id": "shoppingList",
+      "name": "Shopping List",
+      "mainImg": "shopping2.png",
+
+      "carousel": ["shopping1.png", "shopping2.png", "shopping3.png"],
+
+      "skill": ["HTML", "CSS", "JavaScript", "ES6"],
+
+      "description": [
+        "An responsive app where you can make a shopping list and divide it by categories.",
+        "Using modern Javascript and module pattern."
+      ],
+
+      "source": "https://github.com/richardpena11/shopping-list",
+
+      "preview": "https://richardpena11.github.io/shopping-list/"
+    },
+
+    {
+      "id": "budgetapp",
+      "name": "Budget App",
+      "mainImg": "budget3.png",
+
+      "carousel": ["budget1.png", "budget2.png", "budget3.png"],
+
+      "skill": ["HTML", "CSS", "JavaScript", "Module Pattern"],
+
+      "description": [
+        "Budety is a app for a budget managment.",
+        "Using the module pattern for a more organizate work enviroment."
+      ],
+
+      "source": "https://github.com/richardpena11/budgety",
+
+      "preview": "https://richardpena11.github.io/budgety/"
+    },
+
+    {
+      "id": "weatherapp",
+      "name": "Weather App",
+      "mainImg": "weather2.png",
+
+      "carousel": ["weather1.png", "weather2.png", "weather3.png"],
+
+      "skill": ["HTML", "CSS", "Vue"],
+
+      "description": [
+        "A simple Weather App that shows the tempeture and weather by city name.",
+        "Getting the weather data from OpenWeather Api."
+      ],
+
+      "source": "https://github.com/richardpena11/weather-app",
+
+      "preview": "https://richardpena11.github.io/weather-app/"
+    },
+
+    {
+      "id": "piggame",
+      "name": "Pig Game",
+      "mainImg": "pig-game2.png",
+
+      "carousel": ["pig-game1.png", "pig-game2.png", "pig-game3.png"],
+
+      "skill": ["HTML", "CSS", "JavaScript"],
+
+      "description": [
+        "Pig Game is a small game for two players",
+        "Implementing the Math object to create a full random dice.",
+        "Using EcmaScript5"
+      ],
+
+      "source": "https://github.com/richardpena11/pig-game",
+
+      "preview": "https://richardpena11.github.io/pig-game/"
+    },
+
+    {
+      "id": "restaurant",
+      "name": "Restaurant",
+      "mainImg": "restaurant1.png",
+
+      "carousel": ["restaurant1.png", "restaurant2.png", "restaurant3.png"],
+
+      "skill": ["HTML", "CSS", "JavaScript", "jQuery"],
+
+      "description": [
+        "A restaurant home page that can be used to display its menu and location.",
+        "Using jQuery to give effects to the page.",
+        "Utilizing the embed option from Google Maps for a more accurate location info."
+      ],
+
+      "source": "https://github.com/richardpena11/restaurant-practice",
+
+      "preview": "https://richardpena11.github.io/restaurant-practice/"
+    },
+
+    {
+      "id": "startup",
+      "name": "Startup Website",
+      "mainImg": "startup1.png",
+
+      "carousel": ["startup1.png", "startup2.png", "startup3.png"],
+
+      "skill": ["HTML", "Sass", "Bootstrap"],
+
+      "description": [
+        "A business website where a startup or company can offer their services.",
+        "Use Bootstraps grid to accelerate the development process."
+      ],
+
+      "source": "https://github.com/richardpena11/startup-model",
+
+      "preview": "https://richardpena11.github.io/startup-model/"
+    }
+  ],
+  "skills":[
+    {
+      "name": "JavaScript",
+      "ico": "javascript.png"
+    },
+    {
+      "name": "Vue.js",
+      "ico": "vue.png"
+    },
+    {
+      "name": "ESNext",
+      "ico": "ecmascript.png"
+    },
+    {
+      "name": "jQuery",
+      "ico": "jquery.png"
+    },
+    {
+      "name": "Sass",
+      "ico": "sass.png"
+    },
+    {
+      "name": "Bootstrap",
+      "ico": "bootstrap.png"
+    },
+    {
+      "name": "Git",
+      "ico": "git.png"
+    },
+    {
+      "name": "GitHub",
+      "ico": "github.png"
+    },
+    {
+      "name": "Wordpress",
+      "ico": "wordpress.png"
+    },
+    {
+      "name": "Webpack",
+      "ico": "ecmascript.png"
+    }
+  ]
+}
