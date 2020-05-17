@@ -33,7 +33,13 @@ export default {
     compSummary,
     compProjects,
     compSkills
-  }
+  },
+
+  // mounted() {
+  //   window.addEventListener('click', e => {
+  //     console.log(e.target)
+  //   })
+  // },
 }
 </script>
 

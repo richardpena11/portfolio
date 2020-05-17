@@ -45,12 +45,13 @@
                         </div>
 
                         <div class="card-footer">
-                            <a class="card-footer-item" target="_blank" :href="props.list.preview" >Preview</a>
-                            <a class="card-footer-item" target="_blank" :href="props.list.source" >Source</a>
+                            <a class="card-footer-item" @click="openLink(props.list.preview)">Preview</a>
+                            <a class="card-footer-item" @click="openLink(props.list.source)">Source</a>
                             <a class="card-footer-item card-footer-details" @click="changeStatus(props.list.id)">Details</a>
                         </div>
 
                     </div>
+
                 </template>
             </b-carousel-list>
 
@@ -93,6 +94,10 @@ export default {
             }
         },
 
+        openLink(link){
+            window.open(link,'_blank')
+        },
+
         updateWidth(){
             if(this.windowWidth >= 1250){
                 return 4.1
@@ -118,7 +123,6 @@ export default {
         .then( response => response.json())
         .then( data => {
             this.projects = data
-            console.log(this.projects)
         })
 
     },
