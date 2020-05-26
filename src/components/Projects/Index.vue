@@ -51,7 +51,7 @@
                         </div>
 
                     </div>
-
+                    
                 </template>
             </b-carousel-list>
 
@@ -101,9 +101,9 @@ export default {
         updateWidth(){
             if(this.windowWidth >= 1250){
                 return 4.1
-            } else if(this.windowWidth >= 920){
+            } else if(this.windowWidth >= 1020){
                 return 3.1
-            } else if(this.windowWidth >= 630){
+            } else if(this.windowWidth >= 660){
                 return 2.1
             } else if(this.windowWidth >= 500){
                 return 1.5
@@ -147,6 +147,11 @@ export default {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 20px;
+    cursor: grab;
+}
+
+.project_content:active{
+    cursor: grabbing;
 }
 
 .carousel-list{
