@@ -1,0 +1,483 @@
+{
+  "en": {
+    "general": {
+      "social": [
+        {
+          "icon": "phone",
+          "link": "+1 (407) 755-9648",
+          "action" : true
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/richardpena1102"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/richardpena11"
+        },
+        {
+          "icon": "file-document-outline",
+          "link": "https://drive.google.com/file/d/1BFWISB0lt6yVYsspXfCVtqgTV883CmiT/view?usp=sharing"
+        },
+        {
+          "icon": "at",
+          "link": "richardpena1102@gmail.com",
+          "action" : true
+        }
+      ]
+    },
+    "header": {
+      "nav": {
+        "navbar": [
+          {
+            "value": "Projects",
+            "link": "projects"
+          },
+          {
+            "value": "Skills",
+            "link": "skills"
+          },
+          {
+            "value": "Contact",
+            "link": "contact"
+          },
+          {
+            "value": "Resume",
+            "link": "https://drive.google.com/file/d/1BFWISB0lt6yVYsspXfCVtqgTV883CmiT/view?usp=sharing",
+            "icon": "open-in-new"
+          }
+        ],
+        "share": {
+          "title": "Share",
+          "success": "Link was succesfully copied",
+          "close": "Close"
+        }
+      },
+
+      "hero": {
+        "greet": "Hi, I'm",
+        "title": "Richard Pena",
+        "subtitle": "A Front End Web Developer",
+        "summary": [
+          {
+            "content": "with knowledge of modern "
+          },
+          {
+            "content": "JavaScript",
+            "highlight": true
+          },
+          {
+            "content": " programming and frameworks like "
+          },
+          {
+            "content": "Vue",
+            "highlight": true
+          },
+          {
+            "content": " and "
+          },
+          {
+            "content": "React",
+            "highlight": true
+          },
+          {
+            "content": "."
+          }
+        ]
+      }
+    },
+    "main": {
+      "projects": {
+        "title": "Projects",
+        "project": [
+          {
+            "title": "Formato FMS",
+            "carousel": [
+              "https://i.imgur.com/65xpfic.png",
+              "https://i.imgur.com/OY8YEn6.png",
+              "https://i.imgur.com/61fOa4V.png"
+            ],
+            "skills": {
+              "title": "Skills",
+              "skill": ["Vue", "Vuex", "Vue Resource", "Vue Router", "Firebase"]
+            },
+            "action": {
+              "preview": {
+                "content": "Live Preview",
+                "link": "https://www.formatofms.com"
+              },
+              "code": {
+                "content": "Code Source",
+                "link": "https://github.com/richardpena11/formatofms"
+              }
+            }
+          },
+          {
+            "title": "Shopping Cart",
+            "carousel": [
+              "https://i.imgur.com/DEaZPDg.png",
+              "https://i.imgur.com/jAf3YGR.png",
+              "https://i.imgur.com/hB0VEaL.png"
+            ],
+            "skills": {
+              "title": "Skills",
+              "skill": ["HTML", "CSS", "Javascript", "ESNext", "MVC"]
+            },
+            "action": {
+              "preview": {
+                "content": "Live Preview",
+                "link": "https://richardpena11.github.io/shopping-list/"
+              },
+              "code": {
+                "content": "Code Source",
+                "link": "https://github.com/richardpena11/shopping-list"
+              }
+            }
+          },
+          {
+            "title": "Restaurant",
+            "carousel": [
+              "https://i.imgur.com/qA4eVFe.png",
+              "https://i.imgur.com/4CrnVMu.png",
+              "https://i.imgur.com/e6FxvaN.png"
+            ],
+            "skills": {
+              "title": "Skills",
+              "skill": ["HTML", "CSS", "JavaScript", "Jquery"]
+            },
+            "action": {
+              "preview": {
+                "content": "Live Preview",
+                "link": "https://richardpena11.github.io/restaurant-practice/"
+              },
+              "code": {
+                "content": "Code Source",
+                "link": "https://github.com/richardpena11/restaurant-practice"
+              }
+            }
+          }
+        ]
+      },
+      "skills": {
+        "title": "Skills",
+        "skill": [
+          "language-javascript",
+          "vuejs",
+          "nuxt",
+          "react",
+          "sass",
+          "git",
+          "webpack"
+        ]
+      },
+      "contact": {
+        "title": "Contact Me",
+        "form": {
+          "name": {
+            "placeholder": "Name",
+            "required": "Name is required",
+            "tooLong": "Name must be at most 20 characters long"
+          },
+          "email": {
+            "placeholder": "Email",
+            "required": "Email is required",
+            "valid": "Must be valid e-mail"
+          },
+          "subject": {
+            "placeholder": "Subject",
+            "required": "Subject is required",
+            "tooLong": "Subject must be at most 80 characters long"
+          },
+          "message": {
+            "placeholder": "Message",
+            "required": "Message is required"
+          },
+          "submit": "submit",
+          "alert": {
+            "success": "The message has been sent",
+            "error": "Error: Something wrong happened. Please try again"
+          }
+        },
+        "social": {
+          "divider": "OR"
+        }
+      }
+    },
+    "footer": {
+      "personal": "Richard Pena",
+      "roles": {
+        "name": "Roles",
+        "role": [
+          { 
+            "title": "JavaScript Development:", 
+            "skill": "JavaScript - ESNext" 
+          },
+          { 
+            "title": "Web App and SPA:", 
+            "skill": "Vue.js - React.js" 
+          },
+          { 
+            "title": "CSS Expert:", 
+            "skill": "Sass - RWD" 
+          },
+          { 
+            "title": "Email Development:", 
+            "skill": "HTML - CSS" 
+          },
+          { 
+            "title": "Web Design:", 
+            "skill": "Adobe XD - Figma" 
+          }
+        ]
+      },
+      "keySkills": {
+        "name": "Key Skills",
+        "keySkill": [
+          "Bilingual (Spanish / English)",
+          "Leadership",
+          "Teamwork",
+          "Problem Solving",
+          "Computer / IT"
+        ]
+      }
+    }
+  },
+  "es": {
+    "general": {
+      "social": [
+        {
+          "icon": "phone",
+          "link": "+1 (407) 755-9648",
+          "action" : true
+
+        },
+        {
+          "icon": "linkedin",
+          "link": "www.linkedin.com/in/richardpena1102"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/richardpena11"
+        },
+        {
+          "icon": "file-document-outline",
+          "link": "https://drive.google.com/file/d/1BFWISB0lt6yVYsspXfCVtqgTV883CmiT/view?usp=sharing"
+        },
+        {
+          "icon": "at",
+          "link": "richardpena1102@gmail.com",
+          "action" : true
+        }
+      ]
+    },
+    "header": {
+      "nav": {
+        "navbar": [
+          {
+            "value": "Proyectos",
+            "link": "projects"
+          },
+          {
+            "value": "Habilidades",
+            "link": "skills"
+          },
+          {
+            "value": "Contacto",
+            "link": "contact"
+          },
+          {
+            "value": "Curriculo",
+            "link": "https://drive.google.com/file/d/1BFWISB0lt6yVYsspXfCVtqgTV883CmiT/view?usp=sharing",
+            "icon": "open-in-new"
+          }
+        ],
+        "share": {
+          "title": "Compartir",
+          "success": "Enlace fue exitosamente copiado",
+          "close": "Cerrar"
+        }
+      },
+      "hero": {
+        "greet": "Hola, yo soy",
+        "title": "Richard Pena",
+        "subtitle": "Un desarollador web front end",
+        "summary": [
+          {
+            "content": "Con conocimentos en programacion con "
+          },
+          {
+            "content": "JavaScript",
+            "highlight": true
+          },
+          {
+            "content": " moderno y frameworks como "
+          },
+          {
+            "content": "Vue",
+            "highlight": true
+          },
+          {
+            "content": " y "
+          },
+          {
+            "content": "React",
+            "highlight": true
+          },
+          {
+            "content": "."
+          }
+        ]
+      }
+    },
+    "main": {
+      "projects": {
+        "title": "Proyectos",
+        "project": [
+          {
+            "title": "Formato FMS",
+            "carousel": [
+              "https://i.imgur.com/65xpfic.png",
+              "https://i.imgur.com/OY8YEn6.png",
+              "https://i.imgur.com/61fOa4V.png"
+            ],
+            "skills": {
+              "title": "Skills",
+              "skill": ["Vue", "Vuex", "Vue Resource", "Vue Router", "Firebase"]
+            },
+            "action": {
+              "preview": {
+                "content": "Visualizar",
+                "link": "https://www.formatofms.com"
+              },
+              "code": {
+                "content": "Codigo Fuente",
+                "link": "https://github.com/richardpena11/formatofms"
+              }
+            }
+          },
+          {
+            "title": "Shopping Cart",
+            "carousel": [
+              "https://i.imgur.com/DEaZPDg.png",
+              "https://i.imgur.com/jAf3YGR.png",
+              "https://i.imgur.com/hB0VEaL.png"
+            ],
+            "skills": {
+              "title": "Skills",
+              "skill": ["HTML", "CSS", "Javascript", "ESNext", "MVC"]
+            },
+            "action": {
+              "preview": {
+                "content": "Visualizar",
+                "link": "https://richardpena11.github.io/shopping-list/"
+              },
+              "code": {
+                "content": "Codigo Fuente",
+                "link": "https://github.com/richardpena11/shopping-list"
+              }
+            }
+          },
+          {
+            "title": "Restaurante",
+            "carousel": [
+              "https://i.imgur.com/qA4eVFe.png",
+              "https://i.imgur.com/4CrnVMu.png",
+              "https://i.imgur.com/e6FxvaN.png"
+            ],
+            "skills": {
+              "title": "Skills",
+              "skill": ["HTML", "CSS", "JavaScript", "Jquery"]
+            },
+            "action": {
+              "preview": {
+                "content": "Visualizar",
+                "link": "https://www.formatofms.com"
+              },
+              "code": {
+                "content": "Codigo Fuente",
+                "link": "https://github.com/richardpena11/formatofms"
+              }
+            }
+          }
+        ]
+      },
+      "skills": {
+        "title": "Habilidades",
+        "skill": [
+          "language-javascript",
+          "vuejs",
+          "react",
+          "sass",
+          "git",
+          "webpack"
+        ]
+      },
+      "contact": {
+        "title": "Contacto",
+        "form": {
+          "name": {
+            "placeholder": "Nombre",
+            "required": "Nombre es requerido",
+            "tooLong": "Nombre no puede ser mayor de 20 caracteres."
+          },
+          "email": {
+            "placeholder": "Correo",
+            "required": "Correo es requerido",
+            "valid": "Correo no es valido"
+          },
+          "subject": {
+            "placeholder": "Titulo",
+            "required": "Titulo es requerido",
+            "tooLong": "Nombre no puede ser mayor de 80 caracteres"
+          },
+          "message": {
+            "placeholder": "Mensaje",
+            "required": "Message es requerido"
+          },
+          "submit": "Enviar"
+        },
+        "social": {
+          "divider": "O"
+        }
+      }
+    },
+    "footer": {
+      "personal": "Richard Pena",
+      "roles": {
+        "name": "Roles",
+        "role": [
+          { 
+            "title": "Desarrollo JavaScript:", 
+            "skill": "JavaScript - ESNext" 
+          },
+          { 
+            "title": "Web App y SPA:", 
+            "skill": "Vue.js - React.js" 
+          },
+          { 
+            "title": "Experto en CSS:", 
+            "skill": "Sass - RWD" 
+          },
+          { 
+            "title": "Desarrollo de Email:", 
+            "skill": "HTML - CSS" 
+          },
+          { 
+            "title": "Diseño Web:", 
+            "skill": "Adobe XD - Figma" 
+          }
+        ]
+      },
+      "keySkills": {
+        "name": "Habilidades Claves",
+        "keySkill": [
+          "Bilingüe (Spanish / English)",
+          "Liderazgo",
+          "Trabajo en Equipo",
+          "Solucion de Problemas",
+          "Computacion / IT"
+        ]
+      }
+    }
+  }
+}

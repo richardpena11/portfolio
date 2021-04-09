@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "nuxt2",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,11 +12,7 @@
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "core-js": "^3.8.3",
-    "emailjs-com": "^2.6.4",
     "nuxt": "^2.14.12",
-    "nuxt-clipboard": "0.0.2",
-    "nuxt-ssr-screen-size": "github:hugojerez/nuxt-ssr-screen-size",
-    "vue-scroll-reveal": "^1.0.11",
     "vuelidate": "^0.7.6"
   },
   "devDependencies": {
